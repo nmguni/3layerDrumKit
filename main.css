@@ -57,6 +57,11 @@
 
   /* text-shadow: 0 0 0.5rem black; */
 }
+.playing {
+  transform: scale(1.1);
+  border-color: yellow;
+  box-shadow: 0 0 10px #ffc600;
+}
 
 kbd {
   margin-top: 10px;
