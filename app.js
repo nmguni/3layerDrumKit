@@ -1,5 +1,8 @@
 // /* switch events */
 const isChecked = document.getElementById("topCheck")
+const isMDChecked = document.getElementById("midCheck")
+const isBTCheck = document.getElementById("btCheck")
+// -------------
 const firstRow = document.getElementById("topArea")
 const middleRow = document.getElementById("middleArea")
 const bottomRow = document.getElementById("bottomArea")
@@ -12,16 +15,16 @@ function topRow() {
     }
 }
 function midRow() {
-    if (isChecked.checked == 1) {
+    if (isMDChecked.checked == 1) {
         middleRow.classList.add("displayNone")
-    } else if (isChecked.checked == 0) {
+    } else if (isMDChecked.checked == 0) {
         middleRow.classList.remove("displayNone")
     }
 }
 function botRow() {
-    if (isChecked.checked == 1) {
+    if (isBTCheck.checked == 1) {
         bottomRow.classList.add("displayNone")
-    } else if (isChecked.checked == 0) {
+    } else if (isBTCheck.checked == 0) {
         bottomRow.classList.remove("displayNone")
     }
 }

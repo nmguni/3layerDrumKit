@@ -135,3 +135,18 @@ input:checked + .slider:before {
   width: 0;
   height: 0;
 }
+
+.shiftBar_grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+.shift_bar {
+  background-color: #e3f2fd9a;
+  font-size: 1.5em;
+  letter-spacing: 0.5em;
+  height: 4rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
