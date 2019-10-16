@@ -1,3 +1,33 @@
+// /* switch events */
+const isChecked = document.getElementById("topCheck")
+const firstRow = document.getElementById("topArea")
+const middleRow = document.getElementById("middleArea")
+const bottomRow = document.getElementById("bottomArea")
+
+function topRow() {
+    if (isChecked.checked == 1) {
+        firstRow.classList.add("displayNone")
+    } else if (isChecked.checked == 0) {
+        firstRow.classList.remove("displayNone")
+    }
+}
+function midRow() {
+    if (isChecked.checked == 1) {
+        middleRow.classList.add("displayNone")
+    } else if (isChecked.checked == 0) {
+        middleRow.classList.remove("displayNone")
+    }
+}
+function botRow() {
+    if (isChecked.checked == 1) {
+        bottomRow.classList.add("displayNone")
+    } else if (isChecked.checked == 0) {
+        bottomRow.classList.remove("displayNone")
+    }
+}
+
+
+
 function playSound(e) {
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
     const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
@@ -21,3 +51,16 @@ keys.forEach(key => {
     )
 })
 window.addEventListener('keydown', playSound);
+
+
+
+
+
+
+// function checking() {
+//     if (isChecked.checked = 1) {
+//         console.log('checked');
+//     } else(isChecked.checked = 0) {
+//         console.log('unchecked')
+//     }
+// }

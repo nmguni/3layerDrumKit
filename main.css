@@ -62,6 +62,9 @@
   border-color: yellow;
   box-shadow: 0 0 10px #ffc600;
 }
+.displayNone {
+  display: none;
+}
 
 kbd {
   margin-top: 10px;
