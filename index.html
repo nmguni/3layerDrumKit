@@ -15,7 +15,7 @@
     <!-- 10 - 9 - 7  -->
     <div class="container">
       <div id="header">
-        <h1>3 layer drum kit</h1>
+        <h1>drum kit</h1>
         <h4>toggle layers</h4>
         <div class="head_grid">
           <div class="btn">
@@ -46,116 +46,124 @@
         </div>
         <div data-key="87" class="key">
           <kbd>W</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Answer</span>
         </div>
         <div data-key="69" class="key">
           <kbd>E</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Ask</span>
         </div>
         <div data-key="82" class="key">
           <kbd>R</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Letter</span>
         </div>
         <div data-key="84" class="key">
           <kbd>T</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">But I Do</span>
         </div>
         <div data-key="89" class="key">
           <kbd>Y</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Clear</span>
         </div>
         <div data-key="85" class="key">
           <kbd>U</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Criminals</span>
         </div>
         <div data-key="73" class="key">
           <kbd>I</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Daffy</span>
         </div>
         <div data-key="79" class="key">
           <kbd>O</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Fly</span>
         </div>
         <div data-key="80" class="key">
           <kbd>P</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Goddather</span>
         </div>
       </div>
       <!-- middle -->
       <div id="middleArea" class="grid_area_mid">
         <div data-key="65" class="key">
           <kbd>A</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Holy</span>
         </div>
         <div data-key="83" class="key">
           <kbd>S</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Make My Day</span>
         </div>
         <div data-key="68" class="key">
           <kbd>D</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Offer</span>
         </div>
         <div data-key="70" class="key">
           <kbd>F</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Bad Guy</span>
         </div>
         <div data-key="71" class="key">
           <kbd>G</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Say Hello</span>
         </div>
         <div data-key="72" class="key">
           <kbd>H</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">That</span>
         </div>
         <div data-key="74" class="key">
           <kbd>J</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Yo</span>
         </div>
         <div data-key="75" class="key">
           <kbd>K</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Insane</span>
         </div>
         <div data-key="76" class="key">
           <kbd>L</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Is That It</span>
         </div>
       </div>
       <!-- bottom -->
       <div id="bottomArea" class="grid_area_bot">
         <div data-key="90" class="key">
           <kbd>Z</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Achive</span>
         </div>
         <div data-key="88" class="key">
           <kbd>X</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Explain</span>
         </div>
         <div data-key="67" class="key">
           <kbd>C</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Agreeable</span>
         </div>
         <div data-key="86" class="key">
           <kbd>V</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Lost Mind</span>
         </div>
         <div data-key="66" class="key">
           <kbd>B</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Forget</span>
         </div>
         <div data-key="78" class="key">
           <kbd>N</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Shut up</span>
         </div>
         <div data-key="77" class="key">
           <kbd>M</kbd>
-          <span class="sound">clap</span>
+          <span class="sound">Heppend</span>
         </div>
       </div>
       <!-- spacebar area  -->
-      <div class="shiftBar_grid">
+      <!-- <div class="shiftBar_grid">
         <div class="bar"></div>
-        <div class="shift_bar">SHIFT</div>
-        <div class="bar"></div>
+        <div
+          data-key="32"
+          onkeypress="shift_bar(event)"
+          onclick=""
+          id="shift"
+          class="shift_bar"
+        >
+          SHIFT
+        </div>
+        <div class="bar"></div> -->
       </div>
     </div>
 
@@ -177,15 +185,15 @@
     <audio data-key="71" src="sounds/scarface_say_hello.wav"></audio>
     <audio data-key="72" src="sounds/what_was_that.wav"></audio>
     <audio data-key="74" src="sounds/yo.wav"></audio>
-    <audio data-key="75" src="sounds/"></audio>
-    <audio data-key="76" src="sounds/"></audio>
-    <audio data-key="90" src="sounds/"></audio>
-    <audio data-key="88" src="sounds/"></audio>
-    <audio data-key="67" src="sounds/"></audio>
-    <audio data-key="86" src="sounds/"></audio>
-    <audio data-key="66" src="sounds/"></audio>
-    <audio data-key="78" src="sounds/"></audio>
-    <audio data-key="77" src="sounds/"></audio>
+    <audio data-key="75" src="sounds/1-1_are_you_insane.wav"></audio>
+    <audio data-key="76" src="sounds/1-2_as_it_was2.wav"></audio>
+    <audio data-key="90" src="sounds/3-23_all_our_archive.wav"></audio>
+    <audio data-key="88" src="sounds/3-23_all_our_explain.wav"></audio>
+    <audio data-key="67" src="sounds/agreeable.wav"></audio>
+    <audio data-key="86" src="sounds/got_s1e6_lost_mind.wav"></audio>
+    <audio data-key="66" src="sounds/got_s2e2_forget.wav"></audio>
+    <audio data-key="78" src="sounds/got_s1e6_shut_up2.wav"></audio>
+    <audio data-key="77" src="sounds/got_s1e2_happened.wav"></audio>
 
     <script src="app.js"></script>
   </body>
